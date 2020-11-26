@@ -5,7 +5,6 @@ import imageio
 
 def generate_random_matrix(m, n):
     matrix = np.random.randint(0, 2, (m, n))
-    #matrix = np.mat(matrix)
     return matrix
 
 
